@@ -68,9 +68,9 @@ Due to the specification made in the .json file under "scripts", you can run thi
 
 Using the following constants:
 
-trending="Maradona"
+**trending** as "Maradona"
 
-tweetSize=10000;
+**tweetSize** as 10000
 
   Tue Jun 26 2018's top ten trending words for Maradona:
   
@@ -93,7 +93,8 @@ tweetSize=10000;
   lo: 1121
   
   se: 1118
-
+ 
+ 
   
   Tue Jun 26 2018's top ten trending hashtags for Maradona:
   
@@ -116,7 +117,8 @@ tweetSize=10000;
   #FIFA: 49
   
   #Argentina: 49
-
+ 
+ 
   
   Tue Jun 26 2018's top ten trending mentions for Maradona:
   
@@ -140,6 +142,7 @@ tweetSize=10000;
   
   @AngeldebritoOk: 115
 
+ 
+ 
 
-
-Note: By observing the count of Maradona under the trending words tweet, we can see that there were roughly 7000 tweets out of the projected tweetsLimit of 10000. This gives you a rough amount of actual tweets processed, but we must be careful in interpretation since Maradona could have been used more than once in a single tweet (and other things). However, for cases with hashtags, it is unlikely for someone use the hashtag more than once, so the cumulative sum of hashtags matching the "trending" constant is very close to the actual tweet count (search is case insensitive, so #yes and #YeS both correspond to trending="YES").
+Note: By observing the count of Maradona under the trending words tweet, we can see that there were roughly 7000 tweets out of the projected tweetsLimit of 10000. This gives you a rough amount of actual tweets processed, but we must be careful in interpretation since Maradona could have been used more than once in a single tweet (and other things). However, for cases with hashtags, it is unlikely for someone use the hashtag more than once in a single tweet, so the cumulative sum of hashtags matching the "trending" constant is very close to the actual tweet count (search is case insensitive, so #yes and #YeS both correspond to trending="YES").
