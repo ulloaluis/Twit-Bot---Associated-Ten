@@ -32,11 +32,16 @@ Certain words are excluded from the search. They are specified in the excludedWo
 Using npm,
 
 npm install twit
+
 npm install hashmap
+
 npm install --save collections
 
+
 twit is the Twitter API Client for node
+
 hashmap is used in bot.js to keep track of how often a word appears throughout all of the tweets
+
 collections contains SortedSet, which is used due to its set.has() speed/efficiency
 
 note: proper import/require statements are in bot.js file, which is the file containing all of the bot's code
@@ -54,7 +59,9 @@ Due to the specification made in the .json file under "scripts", you can run thi
 # Example Output
 
 Using the following constants:
+
 trending="Maradona"
+
 tweetSize=10000;
 
   Tue Jun 26 2018's top ten trending words for Maradona:
