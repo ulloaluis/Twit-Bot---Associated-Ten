@@ -7,8 +7,8 @@
     "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Luis Ulloa",
+  "license": "MIT",
   "dependencies": {
     "collections": "^5.1.2",
     "hashmap": "^2.3.0",
