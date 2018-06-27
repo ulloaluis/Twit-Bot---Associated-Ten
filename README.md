@@ -2,7 +2,7 @@
 
 Twitter bot implemented using twit (https://github.com/ttezel/twit), a Twitter API Client for Node.js.
 
-Twitter Account: https://twitter.com/AssociatedTen
+**Twitter Account:** https://twitter.com/AssociatedTen
 
 
 # Bot Functionality
@@ -17,7 +17,7 @@ This constant specifies the trending hashtag/mention/phrase that you want to sea
 
 ## tweetsLimit
 
-This constant specifies a limit on the number of tweets the bot will process. Due to retweets, the way Twitter API works, and other factors, the program will hardly ever return exactly the number specified in tweetsLimit, which is why it is a limit. To maximize the real number of tweets processed, you should only use this bot on *trending* hashtags/phrases/mentions. The value of tweetsLimit, when it's greater than the amount of available tweets, does not matter/does not affect performance. It will process all valid tweets from those available.
+This constant specifies a limit on the number of tweets the bot will process. Due to retweets, the way Twitter API works, and other factors, the program will hardly ever return exactly the number specified in tweetsLimit, which is why it is a limit. To maximize the real number of tweets processed, you should only use this bot on **_trending_** hashtags/phrases/mentions. The value of tweetsLimit, when it's greater than the amount of available tweets, does not matter/does not affect performance. It will process all valid tweets from those available.
 
 
 ### Excluded Words
@@ -29,22 +29,30 @@ Certain words are excluded from the search. They are specified in the excludedWo
 
 ## What to install
 
-Using npm,
+**Using npm:**
 
-npm install twit
-
-npm install hashmap
-
-npm install --save collections
-
+> npm install twit
 
 twit is the Twitter API Client for node
 
+More details here: https://github.com/ttezel/twit
+
+
+> npm install hashmap
+
 hashmap is used in bot.js to keep track of how often a word appears throughout all of the tweets
+
+More details here: https://github.com/flesler/hashmap
+
+
+> npm install --save collections
 
 collections contains SortedSet, which is used due to its set.has() speed/efficiency
 
-note: proper import/require statements are in bot.js file, which is the file containing all of the bot's code
+More details here: http://www.collectionsjs.com/sorted-set
+
+
+Note: proper import/require statements are in bot.js file, which is the file containing all of the bot's code
 
 ## keys.js file
 
